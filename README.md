@@ -7,7 +7,7 @@
 3. Sliding Window: It uses a bounded 'for' loop to slide a "window" across the memory array, checking for specific hexadecimal malware signatures.
 4. Memory Safety: The loop's limit is strictly bound '(size -3)' to prevent an Segmentation Faults.
 
-#How to run it
+# How to run it
 1. Create a dummy file in the same folder as the program, and hide the word "EVIL" inside it. Or just use the dummy file I provided ('malware.txt').
 2. Compile the scanner: Use the 'build.sh' file.
 3. Execute the scan: './scanner malware.txt'. Or replace 'malware.txt' whith the file you created.
